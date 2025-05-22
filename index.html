@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="description"
+      content="AnyMo: Category-Agnostic 3D Motion Transfer from Monocular 2D Videos">
+    <meta name="keywords"
+      content="AnyMo">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>AnyMo: Category-Agnostic 3D Motion Transfer from Monocular 2D Videos</title>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-PYVRSFMDRL"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+
+    gtag('js', new Date());
+
+    gtag('config', 'G-PYVRSFMDRL');
+  </script>
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+      rel="stylesheet">
+
+    <link rel="stylesheet" href="./static/css/bulma.min.css">
+    <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
+    <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
+    <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
+    <link rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+    <link rel="stylesheet" href="./static/css/index.css">
+
+    <script
+      src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script defer src="./static/js/fontawesome.all.min.js"></script>
+    <script src="./static/js/bulma-carousel.min.js"></script>
+    <script src="./static/js/bulma-slider.min.js"></script>
+    <script src="./static/js/index.js"></script>
+    <script type="module"
+      src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.1.1/model-viewer.min.js"></script>
+  </head>
+
+  <body>
+  <section class="hero">
+    <div class="hero-body">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered">
+          <div class="column has-text-centered">
+            <h1 class="title is-1 publication-title">AnyMo: Category-Agnostic 3D Motion Transfer from Monocular 2D Videos</h1>
+            <div class="is-size-4 publication-authors">
+              <!-- Paper authors -->
+              <span class="author-block">Anonymous Author</a><sup></sup></span>
+                </span>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="section">
+  <div class="container is-max-desktop">
+    <!-- Abstract. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-full_width">
+
+        <h2 class="title is-2">Overview</h2>
+        <img src="static/images/concept.png" class="center" />
+        <br>
+        <h2 class="title is-2">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+            Motion transfer from 2D videos to 3D assets is a challenging problem, due to inherent ambiguities and diverse object shapes, often requiring manual effort or category-specific template models. 
+            We propose AnyMo, a category-agnostic framework that directly transfers motion from monocular 2D videos to diverse target meshes without relying on predefined templates or explicit 3D supervision.
+            AnyMo utilizes a morphology-parameterized articulated 3D Gaussian splatting model combined with dense semantic correspondences to jointly adapt shape and pose through optimization.
+            This approach effectively alleviates shape-pose ambiguities, enabling visually faithful motion transfer for diverse categories.
+            Experimental results demonstrate superior motion accuracy, efficiency, and visual coherence compared to existing methods, significantly advancing motion transfer in varied object categories and casual video scenarios.
+            Code will be publicly released.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!--/ Abstract. -->
+
+    <!--/ Paper video. -->
+    
+  
+      <!-- Paper video. -->
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-full_width">
+          <h3 class="title is-3">2D-to-3D Animal Motion 2D-to-3D Retargeting</h2>
+          <video id="anymo", autoplay muted loop controls
+            height="100%">
+            <source src="static/videos/qual_animal.mp4"
+              type="video/mp4">
+          </video>
+        </div>
+      </div>
+
+      <!-- Paper video. -->
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-full_width">
+          <h3 class="title is-3">Humanoid Motion 2D-to-3D Retargeting</h2>
+          <video id="anymo", autoplay muted loop controls
+            height="100%">
+            <source src="static/videos/qual_humanoid.mp4"
+              type="video/mp4">
+          </video>
+        </div>
+      </div>
+
+      <!-- Paper video. -->
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-full_width">
+          <h3 class="title is-3">In-the-wild Real-video 2D-to-3D Retargeting</h2>
+          <video id="anymo", autoplay muted loop controls
+            height="100%">
+            <source src="static/videos/real-videos.mp4"
+              type="video/mp4">
+          </video>
+        </div>
+      </div>
+
+
+
+
+  
+</section>
+
+<section class="section" id="BibTeX">
+<div class="container is-max-desktop content has-text-centered">
+  <!-- <h2 class="title">Poster</h2> -->
+  <h2 class="title is-3" >Poster</h2>
+  <!-- <img src="static/images/concept.png" class="center" /> -->
+  </iframe>
+</div>
+
+</section>
+
+
+  </body>
+  </html>
